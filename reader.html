@@ -7,6 +7,11 @@
     <meta name="keywords" content="профессиональный перевод манги">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script type='text/javascript' src='js/jquery-11.0.min.js'></script>   
+    <script type='text/javascript' src='js/unitegallery.min.js'></script>  
+    <link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+    <script type='text/javascript' src='js/ug-theme-grid.js'></script>    
 </head>
 <body>
     <div class="container">
@@ -22,10 +27,44 @@
               </ul>
             </nav>
         </header>
-        <main class="main">Каталог</main>
+        <main class="main">
+            <h2>01 One Piece</h2>
+            <div id="gallery" style="display:none;">
+                <img alt="Page 0"
+                     src="img/manga/activ/One Piece/thumbs/00.jpg"
+                     data-image="img/manga/activ/One Piece/big/00.jpg"
+                     data-description="Page 0 Description">
+                <img alt="Page 1"
+                     src="img/manga/activ/One Piece/thumbs/01.jpg"
+                     data-image="img/manga/activ/One Piece/big/01.jpg"
+                     data-description="Page 1 Description">
+                <img alt="Page 2"
+                     src="img/manga/activ/One Piece/thumbs/02.jpg"
+                     data-image="img/manga/activ/One Piece/big/02.jpg"
+                     data-description="Page 2 Description">
+                <img alt="Page 3"
+                     src="img/manga/activ/One Piece/thumbs/03.jpg"
+                     data-image="img/manga/activ/One Piece/big/03.jpg"
+                     data-description="Page 3 Description">
+                <img alt="Page 4"
+                     src="img/manga/activ/One Piece/thumbs/04.jpg"
+                     data-image="img/manga/activ/One Piece/big/04.jpg"
+                     data-description="Page 4 Description">
+            </div>   
+        </main>
         <aside class="left">Наши кошельки:</aside>
         <aside class="right">Опрос:</aside>
         <footer class="footer">Разработано командой Cristal Storm (c) 2017</footer>
     </div>
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function(){
+
+            jQuery("#gallery").unitegallery();
+
+        });
+        
+    </script>
 </body>
 </html>

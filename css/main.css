@@ -21,42 +21,6 @@ body {
     background-color: #ffffff;
 }
 
-.page-wrapper {
-    background-color: #ffffff;
-}
-
-/* Boxed Layout
----------------------------------- */
-.boxed .page-wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    -webkit-box-shadow: 0px 0px 10px #cacaca;;
-    box-shadow: 0px 0px 10px #cacaca;;
-    height: 100%;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width:768px) {
-    .boxed .page-wrapper {
-        width: 750px;
-    }
-}
-
-/* Medium devices (desktops, tablets, 992px and up) */
-@media (min-width:992px) {
-    .boxed .page-wrapper {
-        width: 970px;
-    }
-}
-
-/* Large devices (Large desktops 1200px and up) */
-@media (min-width:1200px) {
-    .boxed .page-wrapper {
-        width: 1170px;
-    }
-}
-
 
 .header {
     grid-area: header;
