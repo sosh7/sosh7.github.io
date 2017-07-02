@@ -1,0 +1,30 @@
+WebReference.ru
+
+https://www.youtube.com/watch?v=IPZbSM-Wpos&t=353s
+
+https://mangaclub.ru
+
+реализуем горизонтальную прокрутку секции на Flexbox
+https://tproger.ru/translations/horizontal-scroll-flexbox/
+
+
+10 попул€рных фронтенд-элементов без JS
+https://tproger.ru/digest/you-might-not-need-js/
+
+—лайдер изображений
+https://benschwarz.github.io/gallery-css/#item-3
+
+ѕереключатель изображений
+Demo 6
+http://css3.bradshawenterprises.com/cfimg/
+
+Lightbox
+https://tproger.ru/digest/you-might-not-need-js/
+
+
+
+
+
+
+10 генераторов CSS-кода
+https://tproger.ru/digest/10-css-code-generators/
