@@ -29,27 +29,27 @@
         </header>
         <main class="main">
             <h2>01 One Piece</h2>
-            <div id="gallery" style="display:none;">
-                <img alt="Page 0"
+            <div id="gallery" style="display:none; text-align: center;">
+                <img alt=""
                      src="img/manga/activ/One Piece/thumbs/00.jpg"
                      data-image="img/manga/activ/One Piece/big/00.jpg"
-                     data-description="Page 0 Description">
+                     data-description="Название комикса">
                 <img alt="Page 1"
                      src="img/manga/activ/One Piece/thumbs/01.jpg"
                      data-image="img/manga/activ/One Piece/big/01.jpg"
-                     data-description="Page 1 Description">
+                     data-description="">
                 <img alt="Page 2"
                      src="img/manga/activ/One Piece/thumbs/02.jpg"
                      data-image="img/manga/activ/One Piece/big/02.jpg"
-                     data-description="Page 2 Description">
+                     data-description="">
                 <img alt="Page 3"
                      src="img/manga/activ/One Piece/thumbs/03.jpg"
                      data-image="img/manga/activ/One Piece/big/03.jpg"
-                     data-description="Page 3 Description">
+                     data-description="">
                 <img alt="Page 4"
                      src="img/manga/activ/One Piece/thumbs/04.jpg"
                      data-image="img/manga/activ/One Piece/big/04.jpg"
-                     data-description="Page 4 Description">
+                     data-description="">
             </div>   
         </main>
         <aside class="left">Наши кошельки:</aside>
@@ -61,7 +61,13 @@
 
         jQuery(document).ready(function(){
 
-            jQuery("#gallery").unitegallery();
+            jQuery("#gallery").unitegallery({
+                gallery_width:950,
+                gallery_height:1050,
+                thumb_width:48,
+                thumb_height:70,
+                thumb_fixed_size:false
+            });
 
         });
         

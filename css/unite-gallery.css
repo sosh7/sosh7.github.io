@@ -87,7 +87,7 @@
 	position:absolute;
 	overflow:hidden;
 	z-index:1;
-	background-color:#000000;
+	background-color:#ffffff;
 }
 
 .ug-slider-wrapper .ug-slider-controls{
@@ -209,8 +209,8 @@
 }
 
 .ug-slider-preloader.ug-loader-black{
-	border-color:#000000;
-	background-color:#000000;
+	border-color:#ffffff;
+	background-color:#ffffff;
 }
 
 .ug-slider-preloader.ug-loader-nobg{
@@ -454,7 +454,7 @@ img.ug-sepia-effect{
 
 
 .ug-gallery-wrapper .ug-textpanel-bg{
-	background-color:#000000;
+	background-color:#ffffff;
 	opacity:0.4;
 	filter: alpha(opacity = 40);
 	z-index:1;
@@ -516,7 +516,7 @@ img.ug-sepia-effect{
 
 .ug-gallery-wrapper .ug-grid-panel{
 	position:absolute;
-    background-color: #000000;
+    background-color: #ffffff;
     xbackground-color: blue;
 
     z-index:2;
@@ -556,7 +556,7 @@ img.ug-sepia-effect{
 
 .ug-gallery-wrapper .ug-strip-panel{
 	position:absolute;
-	background-color:#000000;
+	background-color:#ffffffw;
 	z-index:2;
 }
 
