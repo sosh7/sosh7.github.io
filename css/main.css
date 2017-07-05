@@ -27,12 +27,13 @@ body {
     background-image: url("../img/top_01.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;  
-
+    background-size: contain;
+    border-bottom: 2px solid #3498db;
 }
 
 .footer{
     grid-area: footer;
+    align-self: center;
     background-color: #e7e7e7;
     padding: 25px 0;
     border-top: 2px solid #3498db;
@@ -41,16 +42,17 @@ body {
 .main {
     grid-area: main;
     background-color: #ffffff;
+    justify-content: center;
 }
 
 .left {
     grid-area: left;
-
+    border-right: 2px solid #3498db;
 }
 
 .right {
     grid-area: right;
-
+    border-left: 2px solid #3498db;
 }
 
 .container {
@@ -59,7 +61,7 @@ body {
                          "left main right"
                          "footer footer footer";
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 50vh 1fr 80px;
+    grid-template-rows: 50vh 1fr 70px;
     min-height: 100vh;
 
 }
@@ -79,10 +81,13 @@ body {
 
 
 nav {
-  position: relative;
-  top: 89%;
+  display: flex;
+  align-self: flex-end;
+
   margin: 0 auto 30px;
   padding: 0;
+  position: relative;
+  top: 89%;
   list-style-type: none;
   border: 2px solid #0066FF;
   border-radius: 15px 5px;
@@ -102,4 +107,28 @@ nav {
 .navbar a:hover {
   border-radius: 15px 5px;
   background-color: #0066FF;
+}
+
+
+.proj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3px;
+  flex-grow: 1;
+  align-content: space-around;
+}
+.namp {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+  margin: 2px;
+  flex-direction: column;
+}
+.cp {
+  text-align: center;
+  flex-grow: 1;
+  margin: 2px;
+  flex-grow: 0;
 }

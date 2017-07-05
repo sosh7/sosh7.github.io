@@ -4,6 +4,8 @@ http://pcvector.net/scripts/slideshow_and_scroller/455-unitgallery-mnogofunkcion
 http://pcvector.net/uploads/demo/scripts/slideshow_and_scroller/unitegallery/grid.html
 http://unitegallery.net/index.php?page=grid-options
 
+https://dmitrylavrik.ru/flexbox-generator
+
 WebReference.ru
 
 https://www.youtube.com/watch?v=IPZbSM-Wpos&t=353s
