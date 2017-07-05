@@ -52,7 +52,12 @@ body {
 
 .right {
     grid-area: right;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
     border-left: 2px solid #3498db;
+
 }
 
 .container {
@@ -83,7 +88,6 @@ body {
 nav {
   display: flex;
   align-self: flex-end;
-
   margin: 0 auto 30px;
   padding: 0;
   position: relative;
@@ -143,4 +147,12 @@ nav {
 .moth {
   text-align: left;
   margin: 1px;
+}
+.opr {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    max-width: 100px;
+    max-height: 100px;
 }
