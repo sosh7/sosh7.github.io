@@ -8,6 +8,15 @@ http://unitegallery.net/index.php?page=grid-options
 https://dmitrylavrik.ru/flexbox-generator
 https://www.youtube.com/watch?v=s2Y5oFgmm20
 
+HTML верстка реального макета от А до Я. Джедай верстки #7 
+https://www.youtube.com/watch?v=vWfRHtxy81Q
+
+Верстка HTML + CSS За 2 Часа. Из PSD. С Нуля. Полная Запись.
+https://www.youtube.com/watch?v=6l3ZSOQKE5g
+
+Plugin Emmet for SublimeText
+https://emmet.io/download/
+https://habrahabr.ru/post/175747/
 
 WebReference.ru
 
