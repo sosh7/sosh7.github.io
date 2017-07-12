@@ -146,7 +146,10 @@ nav {
 }
 .moth {
   text-align: left;
-  margin: 1px;
+  margin: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-self: center;
 }
 .opr {
     display: flex;
