@@ -55,11 +55,19 @@
         <aside class="left"><h4>Наши кошельки:</h4></aside>
         <aside class="right"><h4>Опрос:</h4>
             <div class="opr">
-                <img src="img/kitsune.jpg" width=95%>
+                <form id='poll' action="" method="post" accept-charset="utf-8">
+                <p>Голосуйте за ваш любимый Javascript framework:</p>
+                <p><input type="radio" name="poll" value="opt1" id="opt1" /><label for='opt1'> jQuery</label><br>
+                <input type="radio" name="poll" value="opt2" id="opt2" /><label for='opt2'> Ext JS</label><br>
+                <input type="radio" name="poll" value="opt3" id="opt3" /><label for='opt3'> Dojo</label><br>
+                <input type="radio" name="poll" value="opt4" id="opt4" /><label for='opt4'> Prototype</label><br>
+                <input type="radio" name="poll" value="opt5" id="opt5" /><label for='opt5'> YUI</label><br>
+                <input type="radio" name="poll" value="opt6" id="opt6" /><label for='opt6'> mootools</label><p align="center">
+                <input type="submit" value="Голосовать →" /></p>
+                </form>
+                <br>
             </div>
-            <div>
-                (Топ-5 манги)
-            </div>
+            <h4>(Топ-5 манги)</h4>
         </aside>
         <footer class="footer">Разработано командой Cristal Storm (c) 2017</footer>
     </div>
