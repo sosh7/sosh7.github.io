@@ -11,17 +11,17 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<div class="container">
-		<header class="header">
-			<img src="img/top_01.png" alt="Cristal storm" class="imghead">
-			<ul class="navbar">
+    <div class="container">
+        <header class="header">
+            <img src="img/top_01.png" alt="Cristal storm" class="imghead">
+            <ul class="navbar">
                 <li><a href="index.html">Главная</a></li>
-                <li><a href="#">Проекты</a>
+                <li><a href="projects.html">Проекты</a>
                     <ul>
-                        <li><a href="projects.html">Активные</a></li>
+                        <li><a href="activ.html">Активные</a></li>
                         <li><a href="ended.html">Законченные</a></li>
-                        <li><a href="#">Будущие</a></li>
-                        <li><a href="#">Заброшенные</a></li>
+                        <li><a href="future.html">Будущие</a></li>
+                        <li><a href="abandoned.html">Заброшенные</a></li>
                     </ul>
                 </li>
                 <li><a href="reader.html">Читалка</a></li>
@@ -29,12 +29,25 @@
                 <li><a href="vacancy.html">Вакансии</a></li>
                 <li><a href="calendar.html">Календарь</a></li>
             </ul>
-		</header>
-  		<article class="main">
-    		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
-  		</article>
-  		<aside class="aside left"><h4>Наши кошельки:</h4></aside>
- 		<aside class="aside right"><h4>Опрос:</h4>
+        </header>
+  		<main class="main"><h3>Законченные</h3>
+            <div class="proj">
+                <cp class="cp">
+                    <img src="img/cover/ended/01_dWd.png" class="imgproj">
+                </cp>
+                <cp class="cp">
+                    <img src="img/cover/ended/02_2_Onyanoko_Darling.png" class="imgproj">
+                </cp>
+                <cp class="cp">
+                    <img src="img/cover/ended/03_Sorenara_Isso_Koi_ni_Nare.png" class="imgproj">
+                </cp>
+                <cp class="cp">
+                    <img src="img/cover/ended/04_Wild_Wing.png" class="imgproj">
+                </cp>
+            </div>
+  		</main>
+  		<aside class="left"><h4>Наши кошельки:</h4></aside>
+        <aside class="right"><h4>Опрос:</h4>
             <div class="opr">
                 <form id='poll' action="" method="post" accept-charset="utf-8">
                 <p>Голосуйте за ваш любимый Javascript framework:</p>
@@ -47,7 +60,9 @@
                 <input type="submit" value="Голосовать →" /></p>
                 </form>
                 <br>
-            </div></aside>
+            </div>
+            <h4>(Топ-5 манги)</h4>
+        </aside>
   		<footer class="footer">Разработано командой Cristal Storm (c) 2017</footer>
 	</div>
 </body>
