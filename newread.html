@@ -9,11 +9,6 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/main.css">
-
-    <script type='text/javascript' src='js/jquery-11.0.min.js'></script>   
-    <script type='text/javascript' src='js/unitegallery.min.js'></script>  
-    <link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
-    <script type='text/javascript' src='js/ug-theme-grid.js'></script>    
 </head>
 <body>
     <div class="container">
@@ -35,30 +30,34 @@
                 <li><a href="calendar.html">Календарь</a></li>
             </ul>
         </header>
-        <main class="main">
-            <h2>01 One Piece</h2>
-            <div id="gallery" style="display:none; text-align: center;">
-                <img alt=""
-                     src="img/manga/activ/One Piece/thumbs/00.jpg"
-                     data-image="img/manga/activ/One Piece/big/00.jpg"
-                     data-description="Название комикса">
-                <img alt="Page 1"
-                     src="img/manga/activ/One Piece/thumbs/01.jpg"
-                     data-image="img/manga/activ/One Piece/big/01.jpg"
-                     data-description="">
-                <img alt="Page 2"
-                     src="img/manga/activ/One Piece/thumbs/02.jpg"
-                     data-image="img/manga/activ/One Piece/big/02.jpg"
-                     data-description="">
-                <img alt="Page 3"
-                     src="img/manga/activ/One Piece/thumbs/03.jpg"
-                     data-image="img/manga/activ/One Piece/big/03.jpg"
-                     data-description="">
-                <img alt="Page 4"
-                     src="img/manga/activ/One Piece/thumbs/04.jpg"
-                     data-image="img/manga/activ/One Piece/big/04.jpg"
-                     data-description="">
-            </div>   
+        <main class="main"><hlast class="hlast">Последние обновления:</hlast>
+            <div class="nmanga">
+                <a href="page1.html">Академия Богов Армерия | Kami-sama Gakuen @ Armeria</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 1 Глава 1</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 1 Глава 2</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 1 Глава 3</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 2 Глава 4</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 2 Глава 5</a>
+            </div>
+            <div class="nmanga">
+                <a href="page2.html">Для тебя мой дом всегда открыт | Come to My Home</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 1 Глава 1</a>
+            </div>
+            <div class="vols">
+                <a href="reader.html">Том 1 Глава 2</a>
+            </div>
         </main>
         <aside class="left"><h4>Наши кошельки:</h4></aside>
         <aside class="right"><h4>Опрос:</h4>
@@ -79,21 +78,5 @@
         </aside>
         <footer class="footer">Разработано командой Cristal Storm (c) 2017</footer>
     </div>
-
-    <script type="text/javascript">
-
-        jQuery(document).ready(function(){
-
-            jQuery("#gallery").unitegallery({
-                gallery_width:900,
-                gallery_height:1200,
-                thumb_width:48,
-                thumb_height:70,
-                thumb_fixed_size:false
-            });
-
-        });
-        
-    </script>
 </body>
 </html>

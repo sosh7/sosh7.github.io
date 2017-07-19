@@ -50,6 +50,8 @@ body {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-image: url("../img/bg.png");
   background-repeat: repeat;
@@ -85,11 +87,9 @@ body {
 .imghead {
   width: 80%
 }
-
 .imgproj {
   width: 95%
 }
-
 .imgproj:hover { 
   width: 100%
 }
@@ -169,7 +169,7 @@ body {
 
 .news {
   display: flex;
-  margin: 22px;
+  margin: 0 22px;
   padding: 1px;
   border-top: 1px solid #3498db;
   text-align: left;
@@ -179,7 +179,12 @@ body {
   margin: 5px;
   padding: 10px;
   justify-content: center;
-  align-self: center;
+}
+.annot {
+  display: flex;
+  margin: 0 22px;
+  padding: 1px;
+  text-align: left;
 }
 
 .razd {
@@ -194,4 +199,40 @@ body {
   align-self: flex-start;
   text-align: left;
   margin: 5px;
+}
+
+.hlast {
+  margin: 8px;
+  padding: 5px 20px;
+  background-color: #333;
+  border-radius: 15px 15px;
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+  font-style: bold;
+}
+.nmanga {
+  text-align: left;
+  margin: 15px 20px 0;
+  border-bottom: 1px solid #666;
+  font: bold italic 120% serif;
+}
+.nmanga a {
+  color: #000;
+  text-decoration: none;
+}
+.nmanga a:hover { 
+    text-decoration: underline #000;
+}
+.vols {
+  text-align: left;
+  margin: 2px 20px;
+  font: italic 110% serif;
+}
+.vols a {
+  color: #000;
+  text-decoration: none;
+}
+.vols a:hover { 
+    text-decoration: underline #000;
 }
